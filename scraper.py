@@ -1,13 +1,13 @@
 # NF NC Trail Data
 
+print "Your are not insane."
+
 import re
 import json
 import datetime
 import scraperwiki
 import lxml.html
 import html5lib
-
-print "Your are not insane."
 
 from html5lib import treebuilders
 html5Parser = html5lib.HTMLParser(tree=treebuilders.getTreeBuilder("lxml"), namespaceHTMLElements=False)
