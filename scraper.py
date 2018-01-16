@@ -7,6 +7,8 @@ import scraperwiki
 import lxml.html
 import html5lib
 
+print "Your are not insane."
+
 from html5lib import treebuilders
 html5Parser = html5lib.HTMLParser(tree=treebuilders.getTreeBuilder("lxml"), namespaceHTMLElements=False)
 
